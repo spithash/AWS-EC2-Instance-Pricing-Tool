@@ -152,8 +152,8 @@ def show_table(title, results):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="🔍 Compare AWS EC2 pricing and AMIs by region, OS and distro.",
-        epilog="Example: ./ec2pricing t2.micro --os linux --distro ubuntu",
+        description="🔍 Compare AWS EC2 on-demand pricing and AMIs by region, OS and distro.",
+        epilog="Example: ec2pricing t2.micro --os linux --distro ubuntu",
         formatter_class=argparse.ArgumentDefaultsHelpFormatter
     )
     parser.add_argument("instance_type", help="EC2 instance type to compare")
