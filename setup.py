@@ -3,8 +3,8 @@ from setuptools import setup, find_packages
 setup(
     name="aws-ec2-pricing-tool",
     version="0.1.0",
-    author="Your Name",
-    author_email="your.email@example.com",
+    author="Stathis Xantinidis",
+    author_email="spithash@tuta.io",
     description="CLI tool to compare AWS EC2 pricing and AMIs across regions",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
@@ -16,7 +16,7 @@ setup(
     ],
     entry_points={
         "console_scripts": [
-            "ec2-price-checker=aws_ec2_pricing_tool.cli:main"
+            "ec2pricing=aws_ec2_pricing_tool.cli:main"
         ],
     },
     classifiers=[
