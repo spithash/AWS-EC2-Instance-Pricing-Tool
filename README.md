@@ -20,6 +20,10 @@ Supports Linux distributions (Ubuntu, Amazon Linux, RHEL, SUSE) and Windows inst
 
   ```bash
   pip install boto3 rich
+  ```
+  Or
+  ```bash
+  pip install -r requirements.txt
 ## Installation
 
 ```bash
