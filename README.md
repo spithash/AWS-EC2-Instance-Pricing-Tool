@@ -3,6 +3,12 @@
 A Python CLI tool to fetch and compare **AWS EC2 hourly on-demand pricing** and the latest **AMI IDs** across all available AWS regions.  
 Supports Linux distributions (Ubuntu, Amazon Linux, RHEL, SUSE) and Windows instances.
 
+[![PyPI version](https://img.shields.io/pypi/v/aws-ec2-pricing-tool)](https://pypi.org/project/aws-ec2-pricing-tool/)
+[![Python version](https://img.shields.io/pypi/pyversions/aws-ec2-pricing-tool)](https://pypi.org/project/aws-ec2-pricing-tool/)
+[![License](https://img.shields.io/pypi/l/aws-ec2-pricing-tool)](https://github.com/spithash/AWS-EC2-Instance-Pricing-Tool/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/spithash/AWS-EC2-Instance-Pricing-Tool?style=social)](https://github.com/spithash/AWS-EC2-Instance-Pricing-Tool/stargazers)
+
+
 💡 Ideal for DevOps engineers, cloud architects, and infrastructure teams looking to optimize EC2 costs or automate cloud image selection.
 
 > 🔖 This tool focuses on **on-demand EC2 pricing**, making it perfect for dynamic or short-term workloads where flexibility matters.
