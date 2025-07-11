@@ -8,7 +8,6 @@ Supports Linux distributions (Ubuntu, Amazon Linux, RHEL, SUSE) and Windows inst
 [![License](https://img.shields.io/pypi/l/aws-ec2-pricing-tool)](https://github.com/spithash/AWS-EC2-Instance-Pricing-Tool/blob/main/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/spithash/AWS-EC2-Instance-Pricing-Tool?style=social)](https://github.com/spithash/AWS-EC2-Instance-Pricing-Tool/stargazers)
 
-
 💡 Ideal for DevOps engineers, cloud architects, and infrastructure teams looking to optimize EC2 costs or automate cloud image selection.
 
 > 🔖 This tool focuses on **on-demand EC2 pricing**, making it perfect for dynamic or short-term workloads where flexibility matters.
@@ -21,7 +20,7 @@ Supports Linux distributions (Ubuntu, Amazon Linux, RHEL, SUSE) and Windows inst
   The package is compatible with Python 3.7 and above.
 
 - **AWS Credentials Configured**  
-  The tool uses `boto3` to interact with AWS APIs. Make sure your AWS CLI or environment variables are configured with appropriate credentials and permissions to access EC2 and Pricing APIs.  
+  It uses `boto3` to interact with AWS APIs. Make sure your AWS CLI or environment variables are configured with appropriate credentials and permissions to access EC2 and Pricing APIs.  
   _Note: You don't need to set a default region in your environment._
 
 ## Installation
@@ -39,6 +38,7 @@ git clone https://github.com/spithash/AWS-EC2-Instance-Pricing-Tool.git
 cd AWS-EC2-Instance-Pricing-Tool
 pip install .
 ```
+
 ## Usage
 
 Run the tool from the command line by specifying the EC2 instance type, operating system, and optionally the distro:
@@ -66,6 +66,7 @@ Fetch pricing and AMI info for a Linux instance across all distros (no distro sp
 ```bash
 ec2pricing t2.micro --os linux
 ```
+
 ## Linux Instances Demo
 
 ![EC2 Pricing Linux](https://raw.githubusercontent.com/spithash/trunk/refs/heads/master/ec2pricing/ec2pricing-linux.gif)
