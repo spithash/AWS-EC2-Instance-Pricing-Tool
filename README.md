@@ -37,6 +37,9 @@ git clone https://github.com/spithash/AWS-EC2-Instance-Pricing-Tool.git
 cd AWS-EC2-Instance-Pricing-Tool
 pip install .
 ```
+## Linux Instances Demo
+
+![EC2 Pricing Linux](https://raw.githubusercontent.com/spithash/trunk/refs/heads/master/ec2pricing/ec2pricing-linux.gif)
 
 ## Usage
 
@@ -65,3 +68,6 @@ Fetch pricing and AMI info for a Linux instance across all distros (no distro sp
 ```bash
 ec2pricing t2.micro --os linux
 ```
+## Windows Instances Demo
+
+![EC2 Pricing Windows](https://raw.githubusercontent.com/spithash/trunk/refs/heads/master/ec2pricing/ec2pricing-windows.gif)
