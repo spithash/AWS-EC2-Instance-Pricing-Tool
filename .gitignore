@@ -1,2 +1,3 @@
 dist/
 venv/
+aws_ec2_pricing_tool.egg-info/
