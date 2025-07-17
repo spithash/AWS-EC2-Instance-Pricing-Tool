@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="aws-ec2-pricing-tool",
-    version="0.1.5",
+    version="0.1.6",
     author="Stathis Xantinidis",
     author_email="spithash@tuta.io",
     description="CLI tool to compare AWS EC2 on-demand pricing and AMIs across regions",
