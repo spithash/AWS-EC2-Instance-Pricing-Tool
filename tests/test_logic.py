@@ -1,4 +1,5 @@
 import pytest
+import json
 from unittest.mock import patch, MagicMock
 from ec2pricing import fetch_regions, fetch_pricing_data, extract_prices
 
